@@ -72,22 +72,22 @@ const Chat = () => {
 
   return (
     <div className="w-full h-[100vh] bg-gray-800 font-mono">
-      <div className="mx-auto bg-gray-800  p-6 max-w-4xl">
-        <h1 className="text-3xl text-white font-bold text-center mb-4">
+      <div className="mx-auto bg-gray-800  p-6 max-w-4xl ">
+        <h1 className="text-2xl text-white font-bold text-center mb-4 headerr">
           Space Communication Delay Simulator
         </h1>
 
-        <p className="text-gray-100 mb-2 text-center">
+        <p className="text-gray-100 mb-2 text-center headerr">
           Experience how communication delays happen between planets! Light
           travels fast, but over millions of kilometers, even it takes minutes.
           Here you can send a message from Earth to Mars and observe the time
           delay!
         </p>
 
-        <p className="text-gray-100 mb-2 text-center">
+        <p className="text-gray-100 mb-2 text-center headerr">
         Read more in the about section or <a href="/about" className="text-blue-500">Click here</a></p>
 
-        <p className="text-gray-100 mb-6 text-center"><a className="text-blue-500" href="https://bichitrabehera-blue.vercel.app" target="_blank">Click here</a> to know more about the creator</p>
+        <p className="text-gray-100 mb-6 text-center headerr"><a className="text-blue-500" href="https://bichitrabehera-blue.vercel.app" target="_blank">Click here</a> to know more about the creator</p>
 
         <div className="mb-4">
           <label className="block text-gray-100 mb-2">
@@ -103,12 +103,13 @@ const Chat = () => {
             />
             <button
               type="submit"
-              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+              className="bg-blue-500 hover:bg-blue-600 text-white text-[14px] font-bold py-2 px-4 rounded"
             >
-              Send Signal
+              Send
             </button>
           </form>
         </div>
+        
         {sendDelay !== null && (
           <div className="mt-4 text-center text-gray-100">
             Message delay: {sendDelay.toFixed(2)} seconds
