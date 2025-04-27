@@ -71,8 +71,8 @@ const Chat = () => {
   };
 
   return (
-    <div className="w-full h-[100vh] bg-gray-800 font-mono">
-      <div className="mx-auto bg-gray-800  p-6 max-w-4xl ">
+    <div className="w-full h-[100vh] bg-gray-900 ">
+      <div className="mx-auto bg-gray-900  p-6 max-w-4xl ">
         <h1 className="text-2xl text-white font-bold text-center mb-4 headerr">
           Space Communication Delay Simulator
         </h1>
@@ -109,7 +109,7 @@ const Chat = () => {
             </button>
           </form>
         </div>
-        
+
         {sendDelay !== null && (
           <div className="mt-4 text-center text-gray-100">
             Message delay: {sendDelay.toFixed(2)} seconds

@@ -2,10 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-900  to-[#111] text-white flex justify-center px-4 py-12 font-mono">
+    <div className="min-h-screen bg-gradient-to-r from-gray-900  to-[#111] text-white flex justify-center px-4 py-12 ">
       <article className="prose prose-lg md:prose-xl prose-white max-w-5xl w-full">
         <header className="mb-12 text-center">
-          <h1 className="text-3xl font-extrabold tracking-wide font-sans">
+          <h1 className="text-3xl font-extrabold tracking-wide ">
             About This Project
           </h1>
         </header>
